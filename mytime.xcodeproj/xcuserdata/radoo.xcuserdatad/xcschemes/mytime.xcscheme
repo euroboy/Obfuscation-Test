@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA7645811BA01C8700DC87EB"
-               BuildableName = "Obfuscation Test FINAL.app"
+               BuildableName = "mytime.app"
                BlueprintName = "mytime"
                ReferencedContainer = "container:mytime.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA7645811BA01C8700DC87EB"
-            BuildableName = "Obfuscation Test FINAL.app"
+            BuildableName = "mytime.app"
             BlueprintName = "mytime"
             ReferencedContainer = "container:mytime.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA7645811BA01C8700DC87EB"
-            BuildableName = "Obfuscation Test FINAL.app"
+            BuildableName = "mytime.app"
             BlueprintName = "mytime"
             ReferencedContainer = "container:mytime.xcodeproj">
          </BuildableReference>
@@ -99,7 +99,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA7645811BA01C8700DC87EB"
-            BuildableName = "Obfuscation Test FINAL.app"
+            BuildableName = "mytime.app"
             BlueprintName = "mytime"
             ReferencedContainer = "container:mytime.xcodeproj">
          </BuildableReference>

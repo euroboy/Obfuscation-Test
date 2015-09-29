@@ -13,18 +13,7 @@
 		FA7645911BA01C8700DC87EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA76458F1BA01C8700DC87EB /* Main.storyboard */; };
 		FA7645931BA01C8700DC87EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7645921BA01C8700DC87EB /* Images.xcassets */; };
 		FA7645961BA01C8700DC87EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7645941BA01C8700DC87EB /* LaunchScreen.xib */; };
-		FA7645A21BA01C8700DC87EB /* Obfuscation_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7645A11BA01C8700DC87EB /* Obfuscation_TestTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FA76459C1BA01C8700DC87EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA76457A1BA01C8700DC87EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FA7645811BA01C8700DC87EB;
-			remoteInfo = "Obfuscation Test";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA7645821BA01C8700DC87EB /* mytime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mytime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,20 +26,10 @@
 		FA7645901BA01C8700DC87EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA7645921BA01C8700DC87EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA7645951BA01C8700DC87EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FA76459B1BA01C8700DC87EB /* mytime.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mytime.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA7645A01BA01C8700DC87EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA7645A11BA01C8700DC87EB /* Obfuscation_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Obfuscation_TestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA76457F1BA01C8700DC87EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA7645981BA01C8700DC87EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				FA7645841BA01C8700DC87EB /* myTime */,
-				FA76459E1BA01C8700DC87EB /* myTimeTests */,
 				FA7645831BA01C8700DC87EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				FA7645821BA01C8700DC87EB /* mytime.app */,
-				FA76459B1BA01C8700DC87EB /* mytime.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,24 +80,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA76459E1BA01C8700DC87EB /* myTimeTests */ = {
-			isa = PBXGroup;
-			children = (
-				FA7645A11BA01C8700DC87EB /* Obfuscation_TestTests.m */,
-				FA76459F1BA01C8700DC87EB /* Supporting Files */,
-			);
-			name = myTimeTests;
-			path = "Obfuscation TestTests";
-			sourceTree = "<group>";
-		};
-		FA76459F1BA01C8700DC87EB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA7645A01BA01C8700DC87EB /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,24 +100,6 @@
 			productReference = FA7645821BA01C8700DC87EB /* mytime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA76459A1BA01C8700DC87EB /* mytimeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA7645A81BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "mytimeTests" */;
-			buildPhases = (
-				FA7645971BA01C8700DC87EB /* Sources */,
-				FA7645981BA01C8700DC87EB /* Frameworks */,
-				FA7645991BA01C8700DC87EB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FA76459D1BA01C8700DC87EB /* PBXTargetDependency */,
-			);
-			name = mytimeTests;
-			productName = "Obfuscation TestTests";
-			productReference = FA76459B1BA01C8700DC87EB /* mytime.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,10 +111,6 @@
 				TargetAttributes = {
 					FA7645811BA01C8700DC87EB = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					FA76459A1BA01C8700DC87EB = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = FA7645811BA01C8700DC87EB;
 					};
 				};
 			};
@@ -191,7 +128,6 @@
 			projectRoot = "";
 			targets = (
 				FA7645811BA01C8700DC87EB /* mytime */,
-				FA76459A1BA01C8700DC87EB /* mytimeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,13 +140,6 @@
 				FA7645911BA01C8700DC87EB /* Main.storyboard in Resources */,
 				FA7645961BA01C8700DC87EB /* LaunchScreen.xib in Resources */,
 				FA7645931BA01C8700DC87EB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA7645991BA01C8700DC87EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,23 +156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA7645971BA01C8700DC87EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA7645A21BA01C8700DC87EB /* Obfuscation_TestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FA76459D1BA01C8700DC87EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FA7645811BA01C8700DC87EB /* mytime */;
-			targetProxy = FA76459C1BA01C8700DC87EB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA76458F1BA01C8700DC87EB /* Main.storyboard */ = {
@@ -368,42 +281,6 @@
 			};
 			name = Release;
 		};
-		FA7645A91BA01C8700DC87EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Obfuscation TestTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "d.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = mytime;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytime.app/mytime";
-			};
-			name = Debug;
-		};
-		FA7645AA1BA01C8700DC87EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Obfuscation TestTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "d.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = mytime;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytime.app/mytime";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -421,15 +298,6 @@
 			buildConfigurations = (
 				FA7645A61BA01C8700DC87EB /* Debug */,
 				FA7645A71BA01C8700DC87EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FA7645A81BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "mytimeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA7645A91BA01C8700DC87EB /* Debug */,
-				FA7645AA1BA01C8700DC87EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
