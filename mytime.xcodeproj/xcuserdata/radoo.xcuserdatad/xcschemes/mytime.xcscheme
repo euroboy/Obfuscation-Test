@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0640"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA7645811BA01C8700DC87EB"
                BuildableName = "Obfuscation Test FINAL.app"
-               BlueprintName = "Obfuscation Test FINAL"
-               ReferencedContainer = "container:Obfuscation Test FINAL.xcodeproj">
+               BlueprintName = "mytime"
+               ReferencedContainer = "container:mytime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,27 +29,27 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA76459A1BA01C8700DC87EB"
-               BuildableName = "Obfuscation Test FINALTests.xctest"
-               BlueprintName = "Obfuscation Test FINALTests"
-               ReferencedContainer = "container:Obfuscation Test FINAL.xcodeproj">
+               BuildableName = "mytime.xctest"
+               BlueprintName = "mytimeTests"
+               ReferencedContainer = "container:mytime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA76459A1BA01C8700DC87EB"
-               BuildableName = "Obfuscation Test FINALTests.xctest"
-               BlueprintName = "Obfuscation Test FINALTests"
-               ReferencedContainer = "container:Obfuscation Test FINAL.xcodeproj">
+               BuildableName = "mytime.xctest"
+               BlueprintName = "mytimeTests"
+               ReferencedContainer = "container:mytime.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -58,19 +58,22 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA7645811BA01C8700DC87EB"
             BuildableName = "Obfuscation Test FINAL.app"
-            BlueprintName = "Obfuscation Test FINAL"
-            ReferencedContainer = "container:Obfuscation Test FINAL.xcodeproj">
+            BlueprintName = "mytime"
+            ReferencedContainer = "container:mytime.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
@@ -78,18 +81,18 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA7645811BA01C8700DC87EB"
             BuildableName = "Obfuscation Test FINAL.app"
-            BlueprintName = "Obfuscation Test FINAL"
-            ReferencedContainer = "container:Obfuscation Test FINAL.xcodeproj">
+            BlueprintName = "mytime"
+            ReferencedContainer = "container:mytime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
@@ -97,8 +100,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA7645811BA01C8700DC87EB"
             BuildableName = "Obfuscation Test FINAL.app"
-            BlueprintName = "Obfuscation Test FINAL"
-            ReferencedContainer = "container:Obfuscation Test FINAL.xcodeproj">
+            BlueprintName = "mytime"
+            ReferencedContainer = "container:mytime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

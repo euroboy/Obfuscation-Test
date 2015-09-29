@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA7645821BA01C8700DC87EB /* Obfuscation Test FINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obfuscation Test FINAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7645821BA01C8700DC87EB /* mytime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mytime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7645861BA01C8700DC87EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7645871BA01C8700DC87EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA7645891BA01C8700DC87EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		FA7645901BA01C8700DC87EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA7645921BA01C8700DC87EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA7645951BA01C8700DC87EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FA76459B1BA01C8700DC87EB /* Obfuscation Test FINALTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obfuscation Test FINALTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA76459B1BA01C8700DC87EB /* mytime.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mytime.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7645A01BA01C8700DC87EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7645A11BA01C8700DC87EB /* Obfuscation_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Obfuscation_TestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,8 +63,8 @@
 		FA7645791BA01C8700DC87EB = {
 			isa = PBXGroup;
 			children = (
-				FA7645841BA01C8700DC87EB /* Obfuscation Test */,
-				FA76459E1BA01C8700DC87EB /* Obfuscation TestTests */,
+				FA7645841BA01C8700DC87EB /* myTime */,
+				FA76459E1BA01C8700DC87EB /* myTimeTests */,
 				FA7645831BA01C8700DC87EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +72,13 @@
 		FA7645831BA01C8700DC87EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA7645821BA01C8700DC87EB /* Obfuscation Test FINAL.app */,
-				FA76459B1BA01C8700DC87EB /* Obfuscation Test FINALTests.xctest */,
+				FA7645821BA01C8700DC87EB /* mytime.app */,
+				FA76459B1BA01C8700DC87EB /* mytime.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA7645841BA01C8700DC87EB /* Obfuscation Test */ = {
+		FA7645841BA01C8700DC87EB /* myTime */ = {
 			isa = PBXGroup;
 			children = (
 				FA7645891BA01C8700DC87EB /* AppDelegate.h */,
@@ -90,6 +90,7 @@
 				FA7645941BA01C8700DC87EB /* LaunchScreen.xib */,
 				FA7645851BA01C8700DC87EB /* Supporting Files */,
 			);
+			name = myTime;
 			path = "Obfuscation Test";
 			sourceTree = "<group>";
 		};
@@ -102,12 +103,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA76459E1BA01C8700DC87EB /* Obfuscation TestTests */ = {
+		FA76459E1BA01C8700DC87EB /* myTimeTests */ = {
 			isa = PBXGroup;
 			children = (
 				FA7645A11BA01C8700DC87EB /* Obfuscation_TestTests.m */,
 				FA76459F1BA01C8700DC87EB /* Supporting Files */,
 			);
+			name = myTimeTests;
 			path = "Obfuscation TestTests";
 			sourceTree = "<group>";
 		};
@@ -122,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA7645811BA01C8700DC87EB /* Obfuscation Test FINAL */ = {
+		FA7645811BA01C8700DC87EB /* mytime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA7645A51BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "Obfuscation Test FINAL" */;
+			buildConfigurationList = FA7645A51BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "mytime" */;
 			buildPhases = (
 				FA76457E1BA01C8700DC87EB /* Sources */,
 				FA76457F1BA01C8700DC87EB /* Frameworks */,
@@ -134,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = "Obfuscation Test FINAL";
+			name = mytime;
 			productName = "Obfuscation Test";
-			productReference = FA7645821BA01C8700DC87EB /* Obfuscation Test FINAL.app */;
+			productReference = FA7645821BA01C8700DC87EB /* mytime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA76459A1BA01C8700DC87EB /* Obfuscation Test FINALTests */ = {
+		FA76459A1BA01C8700DC87EB /* mytimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA7645A81BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "Obfuscation Test FINALTests" */;
+			buildConfigurationList = FA7645A81BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "mytimeTests" */;
 			buildPhases = (
 				FA7645971BA01C8700DC87EB /* Sources */,
 				FA7645981BA01C8700DC87EB /* Frameworks */,
@@ -152,9 +154,9 @@
 			dependencies = (
 				FA76459D1BA01C8700DC87EB /* PBXTargetDependency */,
 			);
-			name = "Obfuscation Test FINALTests";
+			name = mytimeTests;
 			productName = "Obfuscation TestTests";
-			productReference = FA76459B1BA01C8700DC87EB /* Obfuscation Test FINALTests.xctest */;
+			productReference = FA76459B1BA01C8700DC87EB /* mytime.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +165,7 @@
 		FA76457A1BA01C8700DC87EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Radoo;
 				TargetAttributes = {
 					FA7645811BA01C8700DC87EB = {
@@ -175,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA76457D1BA01C8700DC87EB /* Build configuration list for PBXProject "Obfuscation Test FINAL" */;
+			buildConfigurationList = FA76457D1BA01C8700DC87EB /* Build configuration list for PBXProject "mytime" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA7645811BA01C8700DC87EB /* Obfuscation Test FINAL */,
-				FA76459A1BA01C8700DC87EB /* Obfuscation Test FINALTests */,
+				FA7645811BA01C8700DC87EB /* mytime */,
+				FA76459A1BA01C8700DC87EB /* mytimeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +240,7 @@
 /* Begin PBXTargetDependency section */
 		FA76459D1BA01C8700DC87EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA7645811BA01C8700DC87EB /* Obfuscation Test FINAL */;
+			target = FA7645811BA01C8700DC87EB /* mytime */;
 			targetProxy = FA76459C1BA01C8700DC87EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -284,6 +286,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -349,7 +352,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Obfuscation Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Obfuscation Test FINAL";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = mytime;
 			};
 			name = Debug;
 		};
@@ -359,7 +363,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Obfuscation Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Obfuscation Test FINAL";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = mytime;
 			};
 			name = Release;
 		};
@@ -377,8 +382,9 @@
 				);
 				INFOPLIST_FILE = "Obfuscation TestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Obfuscation Test FINALTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obfuscation Test.app/Obfuscation Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = mytime;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytime.app/mytime";
 			};
 			name = Debug;
 		};
@@ -392,15 +398,16 @@
 				);
 				INFOPLIST_FILE = "Obfuscation TestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "Obfuscation Test FINALTests";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Obfuscation Test.app/Obfuscation Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = mytime;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mytime.app/mytime";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA76457D1BA01C8700DC87EB /* Build configuration list for PBXProject "Obfuscation Test FINAL" */ = {
+		FA76457D1BA01C8700DC87EB /* Build configuration list for PBXProject "mytime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA7645A31BA01C8700DC87EB /* Debug */,
@@ -409,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA7645A51BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "Obfuscation Test FINAL" */ = {
+		FA7645A51BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "mytime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA7645A61BA01C8700DC87EB /* Debug */,
@@ -418,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA7645A81BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "Obfuscation Test FINALTests" */ = {
+		FA7645A81BA01C8700DC87EB /* Build configuration list for PBXNativeTarget "mytimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA7645A91BA01C8700DC87EB /* Debug */,
