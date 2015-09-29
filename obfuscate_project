@@ -3,9 +3,9 @@
 set -e
 
 # General build options
-# WORKSPACE=Obfuscation Test FINAL.xcworkspace
-PROJECT=Obfuscation Test FINAL.xcodeproj
-SCHEME=Obfuscation Test FINAL
+# WORKSPACE=mytime.xcworkspace
+PROJECT=mytime.xcodeproj
+SCHEME=mytime
 CONFIGURATION=Release
 SDK=9.0
 
