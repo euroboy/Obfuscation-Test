@@ -26,7 +26,7 @@
 		FA7645901BA01C8700DC87EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA7645921BA01C8700DC87EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA7645951BA01C8700DC87EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FAE9EA791BBACBBC003D3F3D /* mytime.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mytime.pch; path = ../mytime.pch; sourceTree = "<group>"; };
+		FAE9EA791BBACBBC003D3F3D /* mytime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "mytime-Prefix.pch"; path = "../mytime-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		FA7645851BA01C8700DC87EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FAE9EA791BBACBBC003D3F3D /* mytime.pch */,
+				FAE9EA791BBACBBC003D3F3D /* mytime-Prefix.pch */,
 				FA7645861BA01C8700DC87EB /* Info.plist */,
 				FA7645871BA01C8700DC87EB /* main.m */,
 			);
@@ -265,7 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = mytime.pch;
+				GCC_PREFIX_HEADER = "mytime-Prefix.pch";
 				INFOPLIST_FILE = "Obfuscation Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "d.$(PRODUCT_NAME:rfc1034identifier)";
@@ -277,7 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = mytime.pch;
+				GCC_PREFIX_HEADER = "mytime-Prefix.pch";
 				INFOPLIST_FILE = "Obfuscation Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "d.$(PRODUCT_NAME:rfc1034identifier)";
