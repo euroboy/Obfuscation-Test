@@ -1,0 +1,15 @@
+//
+//  mytime.pch
+//  mytime
+//
+//  Created by Radoo on 29/09/15.
+//  Copyright © 2015 Radoo. All rights reserved.
+//
+
+#ifndef mytime_pch
+#define mytime_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* mytime_pch */
